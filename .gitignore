@@ -1,0 +1,11 @@
+# Compiled C executables
+*.exe
+*.out
+*.o
+*.obj
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
