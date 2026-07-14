@@ -1,3 +1,5 @@
+//Function to Print Prime numbers in Given Range
+
 #include <stdio.h>
 
 void printPrimes(int start, int end) {

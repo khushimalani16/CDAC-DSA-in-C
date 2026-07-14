@@ -1,3 +1,25 @@
+/*
+Q.2 Count Even and Odd Numbers Using Pointers 
+
+Concepts Used  
+Arrays 
+Pointers 
+Pointer Arithmetic 
+Looping ( for ) 
+Conditional Statements ( if ) 
+Modulus Operator ( % )  
+
+Step-by-Step Approach 
+1. Accept the size of the array. 
+2. Accept array elements from the user. 
+3. Initialize counters for even and odd numbers. 
+4. Point a pointer to the first element of the array. 
+5. Traverse the array using the pointer. 
+6. Check whether each element is even or odd. 
+7. Increment the respective counter. 
+8. Display the total count of even and odd numbers.
+*/
+
 #include<stdio.h>
 
 int main(){

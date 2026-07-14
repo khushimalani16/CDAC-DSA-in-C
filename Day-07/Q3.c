@@ -1,3 +1,28 @@
+/*
+Q.3 Command Line Calculator
+
+Problem Statement 
+Write a program to accept two operands and an operator as command line arguments. Perform the operation and print the result. Also perform error checking if arguments are not passed correctly. 
+
+Concepts Used 
+Command Line Arguments argc and argv 
+Switch Statement 
+Arithmetic Operators 
+Conditional Statements ( if ) 
+Error Handling atoi() 
+Function 
+
+Step-by-Step Approach  
+1. Accept operands and operator through command line arguments. 
+2. Check whether the correct number of arguments is passed. 
+3. If arguments are missing, display an error message. 
+4. Convert operands from string to integer using atoi() . 
+5. Use a switch statement to identify the operator. 
+6. Perform the corresponding operation. 
+7. Display the result. 
+8. Handle invalid operators appropriately.
+*/
+
 #include<stdio.h>
 
 int main(int argc,char*argv[]){

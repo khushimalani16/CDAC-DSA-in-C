@@ -1,8 +1,9 @@
+//4 function calculator
+
 #include<stdio.h>
 
 int calculate(int a,int b, char op){
 	
-//	int result=0;
 	
 	switch(op){
 		

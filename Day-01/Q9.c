@@ -1,3 +1,5 @@
+//Calculate power of base index
+
 #include <stdio.h>
 
 int main() {

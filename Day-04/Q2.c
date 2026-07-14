@@ -1,3 +1,5 @@
+//Write two different functions to find maximum and minimum of the array elements.
+
 #include<stdio.h>
 
 int arrmax(int a[],int size){

@@ -1,3 +1,27 @@
+/*
+Q.2 Accept and Print Array of Student Structures 
+
+Problem Statement
+ Write functions to accept and print an array of student structures. 
+ 
+ Concepts Used 
+ Structure 
+ Array of Structures 
+ Functions 
+ Looping ( for ) 
+ User Input / Output 
+ Structure Members 
+ 
+ Step-by-Step Approach 
+ 1. Define a structure named Student . 
+ 2. Create an array of student structures. 
+ 3. Write a function to accept details of all students.
+  4. Use a loop to store multiple student records.
+   5. Write another function to display all student records. 
+   6. Use a loop to print all student records. 
+   7. Call both functions from main() . 
+*/
+
 #include<stdio.h>
 
 struct student{

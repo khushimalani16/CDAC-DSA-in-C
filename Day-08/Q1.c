@@ -1,3 +1,43 @@
+/*
+Q.1 Write functions to calculate addition, subtraction and multiplication of two 3 × 3 matrices.
+
+Problem Statement 
+Write separate functions to perform addition, subtraction, and multiplication of two 3 × 3 matrices and display the resultant matrix.
+
+Concepts Used 
+Functions Two-Dimensional Arrays (2D Arrays) 
+Nested Loops ( for ) 
+Matrix Addition 
+Matrix Subtraction 
+Matrix Multiplication 
+Arithmetic Operators 
+
+Step-by-Step Approach 
+
+Matrix Addition 
+1. Declare two 3 × 3 matrices A and B. 
+2. Traverse both matrices using nested loops. 
+3. Add corresponding elements of A and B. 
+4. Store the result in matrix R. 
+5. Display the resultant matrix. 
+
+Matrix Subtraction 
+1. Traverse both matrices using nested loops. 
+2. Subtract corresponding elements of B from A. 
+3. Store the result in matrix R. 
+4. Display the resultant matrix. 
+
+Matrix Multiplication 
+1. Traverse rows of matrix A.
+ 2. Traverse columns of matrix B. 
+ 3. Multiply corresponding elements. 
+ 4. Add the products to obtain a single element of the result matrix. 
+ 5. Store the value in matrix R. 
+ 6. Repeat for all rows and columns. 
+ 7. Display the resultant matrix.
+*/
+
+
 #include<stdio.h>
 
 void addtion(int a[3][3],int b[3][3])

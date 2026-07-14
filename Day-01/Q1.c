@@ -1,4 +1,4 @@
-//wap to accept two numbers from user and display the division
+//WAP to accept two numbers from user and display the division
 
 #include<stdio.h>
 

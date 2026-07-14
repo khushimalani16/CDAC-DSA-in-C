@@ -1,33 +1,25 @@
+// Write a function to calculate sum and product into a single function and print result in calling function. (Do not use global variables for result)
+
 #include<stdio.h>
 
-struct student{
-	int rollno;
-	char name[50];
-	float marks;
-};
-
-void accept(struct student *ptr){
-	printf("Enter the roll no of student: ");
-	scanf("%d",&ptr->rollno);
-	
-	printf("Enter the name of student: ");
-	scanf("%s",&ptr->name);
-	
-	printf("Enter the marks of student: ");
-	scanf("%f",&ptr->marks);
+void calculate(int a, int b, int *sum, int *product)
+{
+    *sum = a + b;
+    *product = a * b;
 }
 
-void display(struct student s1){
-	printf("\nRoll no : %d\n",s1.rollno);
-	printf("Name : %s\n",s1.name);
-	printf("Marks : %.2f\n",s1.marks);
-}
+int main()
+{
+    int num1, num2;
+    int sum, product;
 
+    printf("Enter two numbers: ");
+    scanf("%d%d", &num1, &num2);
 
-int main(){
-	struct student s1;
-	accept(&s1);
-	display(s1);
-	
-	return 0;
+    calculate(num1, num2, &sum, &product);
+
+    printf("Sum = %d\n", sum);
+    printf("Product = %d\n", product);
+
+    return 0;
 }

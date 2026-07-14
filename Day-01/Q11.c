@@ -1,3 +1,5 @@
+//Prime number or not
+
 #include<stdio.h>
 int main(){
 int num;
@@ -9,6 +11,7 @@ if(num<1){
 prime=0;
 }
 
+int i,n;
 for(i=2;i<n;i++){
 if(num%2==0){
 prime=0;

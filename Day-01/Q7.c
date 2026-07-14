@@ -1,3 +1,4 @@
+//WAP to calculate sum of digits reverse the number and check whether it is amstrong or not
 #include<stdio.h>
 int main(){
 	

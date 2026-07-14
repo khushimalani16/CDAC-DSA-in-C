@@ -1,3 +1,5 @@
+//Prit given numbber in binary format using Recursion
+
 #include<stdio.h>
 
 void binary(int n){

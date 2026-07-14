@@ -1,3 +1,26 @@
+/*
+Q.1 Search an Element in an Array Using Pointers
+
+Concepts Used
+Arrays
+Pointers 
+Pointer Arithmetic 
+Looping ( for )
+Conditional Statements ( if ) 
+Linear Search 
+
+Step-by-Step Approach
+ 1. Accept the size of the array.
+ 2. Accept array elements from the user.
+ 3. Accept the element to be searched. 
+ 4. Point a pointer to the first element of the array. 
+ 5. Traverse the array using the pointer. 
+ 6. Compare each element with the search element. 
+ 7. If found, display its position. 
+ 8. Otherwise, display "Element Not Found". 
+ 
+*/
+
 #include<stdio.h>
 
 int main(){
@@ -13,7 +36,7 @@ int main(){
 		scanf("%d",&arr[i]);
 	}
 	
-	printf("enter the elment to search : ");
+	printf("Enter the elment to search : ");
 	scanf("%d",&ele);
 	
 	int *ptr;
@@ -33,7 +56,7 @@ int main(){
 	}
 	
 	if(flag==0){
-		printf("element not found");
+		printf("Element not found");
 	}
 		
 	}

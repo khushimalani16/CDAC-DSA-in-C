@@ -1,3 +1,5 @@
+//print given number of terms in fibonacci Sries
+
 #include<stdio.h>
 
 void fibbo(int n){

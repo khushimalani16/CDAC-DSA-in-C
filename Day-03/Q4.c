@@ -1,3 +1,7 @@
+//Write a function to perform division of two numbers. Return result via out parameter and return value indicates the error (due to zero denominator).
+
+//Out parameter is a pointer parameter used to send the calculated result back to the calling function, while the function's return value is used to indicate success or error.
+
 #include<stdio.h>
 
 int divide (int a,int b,int*res){

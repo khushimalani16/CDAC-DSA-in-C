@@ -1,3 +1,5 @@
+//Q.1 Write a program to accept marks of five subjects and calculate its average.
+
 #include<stdio.h>
 
 int main(){

@@ -1,3 +1,5 @@
+// Write a function to reverse an array
+
 #include<stdio.h>
 
 void reverse(int a[],int size){

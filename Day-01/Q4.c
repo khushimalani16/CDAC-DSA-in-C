@@ -1,4 +1,4 @@
-// Numeric Palidrome
+// Numeric Palidrome.
 
 #include<stdio.h>
 

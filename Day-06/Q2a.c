@@ -1,3 +1,20 @@
+/*
+Q.2 Write a command line program to convert all vowels in a given string to uppercase. 
+
+Concepts Used 
+Command Line Arguments 
+Strings 
+Looping ( for ) 
+Conditional Statements ( if ) 
+Character Manipulation toupper() Function
+
+Step-by-Step Approach 
+1. Accept string using command line argument. 
+2. Traverse each character of the string. 
+3. Check whether the character is a vowel. 
+4. Convert vowels to uppercase. 5. Display the modified string.
+*/
+
 #include<stdio.h>
 
 int main(int argc,char*argv[]){
