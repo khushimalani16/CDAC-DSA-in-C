@@ -1,84 +1,128 @@
 # 📘 CDAC DSA in C
 
-Welcome to my **20-Day CDAC Data Structures and Algorithms Training** repository.
+Welcome to my **20-Day CDAC Data Structures and Algorithms (DSA) Training** repository.
 
-This repository contains all the assignments, practice programs, and notes completed during my CDAC DSA training using the **C programming language**.
+This repository contains all the programs, assignments, and practice questions completed during my CDAC training using the **C Programming Language**.
 
 ---
 
-## 📅 Course Progress
+## 📌 About
 
-| Day | Status |
-|-----|--------|
-| Day-01 | ✅ Completed |
-| Day-02 | ✅ Completed |
-| Day-03 | ✅ Completed |
-| Day-04 | ✅ Completed |
-| Day-05 | ✅ Completed |
-| Day-06 | ✅ Completed |
-| Day-07 | ✅ Completed |
-| Day-08 | ✅ Completed |
-| Day-09 | ✅ Completed |
-| Day-10 | ✅ Completed |
-| Day-11 | ⏳ Pending |
-| Day-12 | ⏳ Pending |
-| Day-13 | ⏳ Pending |
-| Day-14 | ⏳ Pending |
-| Day-15 | ⏳ Pending |
-| Day-16 | ⏳ Pending |
-| Day-17 | ⏳ Pending |
-| Day-18 | ⏳ Pending |
-| Day-19 | ⏳ Pending |
-| Day-20 | ⏳ Pending |
+- ✅ 20-Day CDAC DSA Training Completed
+- 💻 Programs written in C
+- 📂 Day-wise organized folders
+- 📝 Includes class examples and lab assignments
+
+---
+
+# 📊 Course Progress
+
+| Status | Progress |
+|--------|----------|
+| Training | ✅ Completed |
+| Days Covered | **20 / 20** |
+| Completion | **100%** |
+
+---
+
+---
+
+## 📑 Day-wise Index
+
+- 📂 [Day-01](./Day-01)
+- 📂 [Day-02](./Day-02)
+- 📂 [Day-03](./Day-03)
+- 📂 [Day-04](./Day-04)
+- 📂 [Day-05](./Day-05)
+- 📂 [Day-06](./Day-06)
+- 📂 [Day-07](./Day-07)
+- 📂 [Day-08](./Day-08)
+- 📂 [Day-09](./Day-09)
+- 📂 [Day-10](./Day-10)
+- 📂 [Day-11](./Day-11)
+- 📂 [Day-12](./Day-12)
+- 📂 [Day-13](./Day-13)
+- 📂 [Day-14](./Day-14)
+- 📂 [Day-15](./Day-15)
+- 📂 [Day-16](./Day-16)
+- 📂 [Day-17](./Day-17)
+- 📂 [Day-18](./Day-18)
+- 📂 [Day-19](./Day-19)
+- 📂 [Day-20](./Day-20)
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-CDAC-DSA-in-C
+CDAC-DSA-in-C/
 │
 ├── README.md
-├── .gitignore
-├── Day-01
-├── Day-02
-├── Day-03
-│
-...
-│
-└── Day-20
+├── Day-01/
+├── Day-02/
+├── Day-03/
+│   ...
+└── Day-20/
 ```
-
----
-
-## 💻 Language Used
-
-- C
 
 ---
 
 ## 📚 Topics Covered
 
-- C Programming Fundamentals
+- C Programming Basics
 - Arrays
 - Strings
 - Functions
 - Pointers
 - Structures
 - Dynamic Memory Allocation
-- Searching Algorithms
-- Sorting Algorithms
+- Searching
+- Sorting
 - Linked Lists
 - Stacks
 - Queues
-- Trees
-- Graphs
+
+
+---
+
+## ▶️ How to Run
+
+Compile the program:
+
+```bash
+gcc filename.c -o output
+```
+
+Run the program:
+
+**Windows**
+```bash
+output.exe
+```
+
+**Linux / macOS**
+```bash
+./output
+```
+
+---
+
+## 📖 Training Resources
+
+📂 **CDAC Training Material**
+
+> [https://drive.google.com/drive/folders/1D2hxDtCdx-2eLLAPARtehx_MldWhxfG-?usp=sharing]
 
 ---
 
 ## 🎯 Objective
 
-To build a strong foundation in **Data Structures and Algorithms** using C through consistent daily practice during the CDAC training.
+The purpose of this repository is to:
+
+- Practice Data Structures and Algorithms in C
+- Maintain a day-wise record of my learning
+- Build a strong foundation in DSA
+- Help beginners with C programming practice
 
 ---
 
@@ -86,4 +130,4 @@ To build a strong foundation in **Data Structures and Algorithms** using C throu
 
 **Khushi Malani**
 
-⭐ Thank you for visiting this repository!
+⭐ If you found this repository helpful, consider giving it a star!
